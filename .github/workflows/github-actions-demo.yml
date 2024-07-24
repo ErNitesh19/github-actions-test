@@ -16,3 +16,11 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Hello World Muneeb
+  # You may pin to the exact commit or the version.
+  # uses: muneebmughal1/hello-world-action@bdfc66511c69f336b4f502f67bc7a5b8c642d540
+        uses: muneebmughal1/hello-world-action@hello-world-test
+        with:
+    # Who to greet
+          who-to-greet: "nitesh" # default is World
+          
