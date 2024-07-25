@@ -11,4 +11,13 @@ jobs:
 
       - name: complete
         run: echo "done!"
+
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: date
+
+      - name: list content
+        run: cat /etc/os-release
         
