@@ -7,7 +7,7 @@ jobs:
       - name: run multiple commands
         run: |
           echo "running multiple cmds"
-          date
+          date1235
 
       - name: complete
         run: echo "done!"
