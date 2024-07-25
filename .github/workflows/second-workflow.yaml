@@ -8,7 +8,6 @@ jobs:
         run: |
           echo "running multiple cmds"
           date
-          cal
 
       - name: complete
         run: echo "done!"
