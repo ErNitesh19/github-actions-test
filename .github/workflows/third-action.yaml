@@ -6,3 +6,13 @@ jobs:
     steps:
       - name: print github context object.
         run: echo "${{ toJSON(github) }}"
+
+  details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print event detials
+        run: echo "${{ toJSON(github.event) }}"
+
+      - name: print event name only
+        run: echo "${{ github.event_name }}"
+        
